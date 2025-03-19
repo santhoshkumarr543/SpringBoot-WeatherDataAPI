@@ -4,25 +4,26 @@
 This **Spring Boot** project fetches real-time weather details based on a user-provided city name. It integrates with external APIs to first retrieve the **latitude and longitude** of the city and then fetch the corresponding **weather data**. The response is structured in JSON format and can be tested using **Postman**.  
 
 ## 🏗️ Project Structure  
-weather-data-api
-│── src
-│   ├── main
-│   │   ├── java/com.example.weather_data_api
-│   │   │   ├── config/
-│   │   │   │   ├── WebClientConfig.java
-│   │   │   ├── controller/
-│   │   │   │   ├── WeatherController.java
-│   │   │   ├── dto/
-│   │   │   │   ├── GeoCodingResponseDTO.java
-│   │   │   │   ├── WeatherApiResponseDTO.java
-│   │   │   │   ├── WeatherResponseDTO.java
-│   │   │   ├── service/
-│   │   │   │   ├── WeatherService.java
-│   │   │   ├── WeatherDataApiApplication.java
-│── target/
-│── pom.xml
-│── .gitignore
-│── HELP.md
+weather-data-api  
+├── src  
+│   ├── main  
+│   │   ├── java/com.example.weather_data_api  
+│   │   │   ├── config/  
+│   │   │   │   ├── WebClientConfig.java  
+│   │   │   ├── controller/  
+│   │   │   │   ├── WeatherController.java  
+│   │   │   ├── dto/  
+│   │   │   │   ├── GeoCodingResponseDTO.java  
+│   │   │   │   ├── WeatherApiResponseDTO.java  
+│   │   │   │   ├── WeatherResponseDTO.java  
+│   │   │   ├── service/  
+│   │   │   │   ├── WeatherService.java  
+│   │   │   ├── WeatherDataApiApplication.java  
+├── target/  
+├── pom.xml  
+├── .gitignore  
+├── HELP.md  
+
 
 
 ## 🔹 Features  
